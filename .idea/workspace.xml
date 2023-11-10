@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a2ea2c-871d-4775-b301-890eb71f9622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuang-es-api/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuang-es-api/src/main/java/com/kuang/utils/ESconst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuang-es-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kuang-es-api/src/test/java/com/kuang/KuangEsApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-api/src/test/java/com/kuang/KuangEsApiApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +62,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KuangEsApiApplicationTests.restDeleteIndex">
-    <configuration name="KuangEsApiApplicationTests.restDeleteIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KuangEsApiApplicationTests.testSearch">
+    <configuration name="KuangEsApiApplicationTests.testBulkRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kuang-es-api" />
       <extension name="coverage">
         <pattern>
@@ -71,13 +73,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
-      <option name="METHOD_NAME" value="restDeleteIndex" />
+      <option name="METHOD_NAME" value="testBulkRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuangEsApiApplicationTests.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KuangEsApiApplicationTests.testDeleteRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kuang-es-api" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
-      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="METHOD_NAME" value="testDeleteRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuangEsApiApplicationTests.testExistIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KuangEsApiApplicationTests.testGetDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kuang-es-api" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +105,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kuang" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
-      <option name="METHOD_NAME" value="testExistIndex" />
+      <option name="METHOD_NAME" value="testGetDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KuangEsApiApplicationTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuang-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KuangEsApiApplicationTests.testUpdateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kuang-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testUpdateDocument" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KuangEsApiApplicationTests.restDeleteIndex" />
-        <item itemvalue="JUnit.KuangEsApiApplicationTests.testExistIndex" />
-        <item itemvalue="JUnit.KuangEsApiApplicationTests.testCreateIndex" />
+        <item itemvalue="JUnit.KuangEsApiApplicationTests.testSearch" />
+        <item itemvalue="JUnit.KuangEsApiApplicationTests.testBulkRequest" />
+        <item itemvalue="JUnit.KuangEsApiApplicationTests.testDeleteRequest" />
+        <item itemvalue="JUnit.KuangEsApiApplicationTests.testUpdateDocument" />
+        <item itemvalue="JUnit.KuangEsApiApplicationTests.testGetDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699589215046</updated>
-      <workItem from="1699589218068" duration="4794000" />
+      <workItem from="1699589218068" duration="11728000" />
     </task>
     <servers />
   </component>
