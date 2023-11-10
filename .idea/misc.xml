@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/kuang-es-api/pom.xml" />
+        <option value="$PROJECT_DIR$/kuang-es-jd/pom.xml" />
       </list>
     </option>
   </component>
