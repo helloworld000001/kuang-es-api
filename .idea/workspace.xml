@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a2ea2c-871d-4775-b301-890eb71f9622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/KuangEsJdApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/static/images/jdlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/static/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/static/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/test/java/com/kuang/KuangEsJdApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/pojo/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/utils/HtmlParseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuang-es-jd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-jd/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kuang-es-jd/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="E:/data/ElastricSearch/crazy-god-es-imitates-jingdong-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -93,7 +72,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KuangEsJdApplication">
+  <component name="RunManager" selected="Application.HtmlParseUtil">
+    <configuration name="HtmlParseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.utils.HtmlParseUtil" />
+      <module name="kuang-es-jd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KuangEsApiApplicationTests.testBulkRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kuang-es-api" />
       <extension name="coverage">
@@ -121,22 +113,6 @@
       <option name="PACKAGE_NAME" value="com.kuang" />
       <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
       <option name="METHOD_NAME" value="testDeleteRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KuangEsApiApplicationTests.testGetDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kuang-es-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kuang" />
-      <option name="MAIN_CLASS_NAME" value="com.kuang.KuangEsApiApplicationTests" />
-      <option name="METHOD_NAME" value="testGetDocument" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HtmlParseUtil" />
         <item itemvalue="JUnit.KuangEsApiApplicationTests.testSearch" />
         <item itemvalue="JUnit.KuangEsApiApplicationTests.testBulkRequest" />
         <item itemvalue="JUnit.KuangEsApiApplicationTests.testDeleteRequest" />
         <item itemvalue="JUnit.KuangEsApiApplicationTests.testUpdateDocument" />
-        <item itemvalue="JUnit.KuangEsApiApplicationTests.testGetDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +184,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699589215046</updated>
-      <workItem from="1699589218068" duration="13117000" />
+      <workItem from="1699589218068" duration="17896000" />
+      <workItem from="1699844736958" duration="3967000" />
     </task>
     <servers />
   </component>
@@ -220,7 +197,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
