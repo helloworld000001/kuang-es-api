@@ -30,7 +30,7 @@ public class ContentController {
             @PathVariable("keyword") String keyword,
             @PathVariable("pageNo") int pageNo,
             @PathVariable("pageSize") int pageSize) throws IOException {
-        return contentService.searchPage(keyword, pageNo, pageSize);
+        return contentService.searchPageHighLighter(keyword, pageNo, pageSize);
 
     }
 }
