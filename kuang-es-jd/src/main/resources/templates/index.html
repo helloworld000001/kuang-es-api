@@ -94,7 +94,8 @@
                             </p>
                             <!--标题-->
                             <p class="productTitle">
-                                <a>{{result.title}}</a>
+                                <!-- 解析高亮后的标题 -->
+                                <a v-html="result.title"></a>
                             </p>
                             <!--店铺名-->
                             <div class="productShop">
