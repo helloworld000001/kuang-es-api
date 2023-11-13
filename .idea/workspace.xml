@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a2ea2c-871d-4775-b301-890eb71f9622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/config/ElasticSearchConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/controller/ContentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/service/ContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/java/com/kuang/service/ContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kuang-es-jd/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699589215046</updated>
       <workItem from="1699589218068" duration="17896000" />
-      <workItem from="1699844736958" duration="8837000" />
+      <workItem from="1699844736958" duration="11097000" />
     </task>
     <servers />
   </component>
